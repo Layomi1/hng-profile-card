@@ -1,0 +1,49 @@
+body {
+  background: rgb(66, 15, 67);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #72706c;
+  font-size: 15px;
+  font-family: Inter, sans-serif;
+}
+
+.card {
+  background-color: #fdf9ed;
+  max-width: 700px;
+  height: auto;
+  padding: 40px 70px;
+}
+
+figure {
+  margin: auto;
+  max-width: 200px;
+  margin-bottom: 50px;
+}
+figure img {
+  width: 100%;
+  border-radius: 50%;
+  border: 5px solid rgb(66, 15, 67);
+}
+
+p {
+  font-weight: bold;
+  line-height: 22px;
+}
+.content {
+  font-weight: lighter;
+}
+
+.links {
+  text-decoration: none;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  body {
+    padding: 50px 70px;
+  }
+
+  .card {
+    padding: 30px;
+  }
+}
