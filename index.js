@@ -11,7 +11,7 @@ let time = document.querySelector('[data-testid="currentTimeUTC"]');
 const user = {
   imageUrl: "./assets/layomi.jpg",
   name: "Oluwalayomi Lawore",
-  job: "Frontent Developer",
+  job: "Frontend Developer",
   place: "Lagos, Nigeria",
   email: "layomilawore@gmail.com",
   socialLinks: [
