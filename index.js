@@ -62,4 +62,4 @@ function updateTime() {
   time.innerHTML = `Current Time:  <span class='content'>${hours}:${minutes}:${seconds}</span> `;
 }
 updateTime();
-setInterval(updateTime, 60000);
+setInterval(updateTime, 1000);
